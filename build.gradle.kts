@@ -21,10 +21,11 @@ repositories {
 dependencies {
 	implementation("org.springframework.boot:spring-boot-starter-data-redis")
 	implementation("org.springframework.boot:spring-boot-starter-web")
+	implementation("org.redisson:redisson-spring-boot-starter:3.21.1")
 	implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
 	implementation("org.jetbrains.kotlin:kotlin-reflect")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
-	implementation("redis.clients:jedis:5.0.2")
+	implementation("redis.clients:jedis:4.4.6")
 
 }
 
